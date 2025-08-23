@@ -1,0 +1,16 @@
+langchain
+langchain-openai
+langchain-core
+langchain_community
+docx2txt
+pypdf
+langchain_chroma
+python-multipart
+streamlit
+pyodbc
+ollama
+transformers
+torch
+accelerate
+huggingface_hub
+python-dotenv
