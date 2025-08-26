@@ -1,16 +1,13 @@
-langchain
-langchain-openai
+# requirements.txt
+fastapi
+uvicorn
 langchain-core
 langchain_community
+langchain_chroma
 docx2txt
 pypdf
-langchain_chroma
 python-multipart
-streamlit
-pyodbc
+#sqlite3
 ollama
-transformers
-torch
-accelerate
-huggingface_hub
 python-dotenv
+# sentence-transformers # Uncomment if you use HuggingFace embeddings instead of Ollamacls

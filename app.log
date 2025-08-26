@@ -1,0 +1,150 @@
+INFO:root:Session ID: None, User Query: Hi, Model: gpt-4o
+WARNING:langsmith.client:Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+WARNING:langsmith.client:Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+INFO:root:Session ID: None, User Query: Hi How are you doing ?, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+WARNING:langsmith.client:Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+INFO:root:Session ID: None, User Query: Hi, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+WARNING:langsmith.client:Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+WARNING:langsmith.client:Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+INFO:root:Session ID: None, User Query: Hi, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+WARNING:langsmith.client:Failed to multipart ingest runs: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+WARNING:langsmith.client:Failed to send compressed multipart ingest: langsmith.utils.LangSmithError: Failed to POST https://api.smith.langchain.com/runs/multipart in LangSmith API. HTTPError('403 Client Error: Forbidden for url: https://api.smith.langchain.com/runs/multipart', '{"error":"Forbidden"}\n')
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+INFO:root:Session ID: None, User Query: hi, Model: gpt-4o
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 0.429397 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 0.957254 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 0.390693 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:openai._base_client:Retrying request to /embeddings in 0.802156 seconds
+INFO:httpx:HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 429 Too Many Requests"
+INFO:root:Session ID: string, User Query: hi, Model: llama3.1
+INFO:root:Session ID: string, User Query: hi, Model: llama3.1
+INFO:root:Session ID: test-session-1, User Query: What is this document about?, Model: llama3.1
+INFO:root:Session ID: test-session-1, AI Response: I'm not aware of any specific document that has been shared or mentioned in our conversation yet. Could you please provide more information or share the document with me so I can better understand what it's about and assist you accordingly?
+INFO:root:Session ID: None, User Query: Hi, Model: llama3.1
+INFO:root:Session ID: 81d9c07b-c853-4db8-b90d-43f44fa5c740, AI Response: How can I assist you today? You were looking for information about HSN codes, weren't you?
+INFO:root:Session ID: test-session-2, User Query: hi, Model: llama3.1
+INFO:root:Session ID: 81d9c07b-c853-4db8-b90d-43f44fa5c740, User Query: Yes you're right than give me please HSN Codes, Model: llama3.1
+INFO:root:Session ID: test-session-2, AI Response: How can I assist you today? You were looking for information about HSN codes, weren't you?
+INFO:root:Session ID: None, User Query: hi, Model: llama3.2:1b
+INFO:root:Session ID: feec0100-f9d9-4588-89dd-0f522508133f, AI Response: How can I assist you today?
+INFO:root:Session ID: None, User Query: Hello, Model: llama3.2:1b
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, AI Response: It seems like you've started a conversation, but you haven't asked a question yet. What would you like to know or discuss about PALMS? I can help with any questions or tasks related to the system.
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, User Query: Yes what is SKU?, Model: llama3.2:1b
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, AI Response: In the context of PALMS, SKU stands for Stock Keeping Unit. It's a unique identifier assigned to each item in your warehouse or inventory management system.
+
+Think of it like a name or label that uniquely identifies an item, allowing you to easily identify and manage it within your system.
+
+Is there something specific you'd like to know about SKUs or PALMS?
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, User Query: Hi, Model: llama3.2:1b
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, AI Response: It seems like the conversation has started again. You initially asked "What is SKU?" but didn't provide any context or information about what you were referring to. If you could provide more context or clarify what you're asking, I'd be happy to try and assist you.
+
+If not, we can start fresh! What's on your mind?
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, User Query: kuch nahi aap batao, Model: llama3.2:1b
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, AI Response: It seems like "kuch" is a Hindi word that roughly translates to "some" or "nothing". It's not clear what you're referring to.
+
+If you could provide more context or clarify what you're asking, I'd be happy to try and assist you. Are you looking for information about PALMS, or something else entirely?
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, User Query: yes, Model: llama3.2:1b
+INFO:root:Session ID: a0f22631-4eb2-4cd5-84af-5acfb2392cab, AI Response: It seems like we've started a conversation again. If you'd like to ask a question or discuss a topic related to PALMS, I'm here to help.
+
+To provide more context, could you please tell me what specifically you're looking for about PALMS? Are you trying to understand how it works, or do you have a particular question or task in mind?
+INFO:root:Session ID: None, User Query: hi, Model: phi3:mini
+INFO:root:Session ID: None, User Query: retyui, Model: phi3:mini
+INFO:root:Session ID: None, User Query: Hi, Model: phi3:mini
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, User Query: Nohtnhis, Model: gemma2:2b
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, AI Response: It seems like you're trying to test the system.  
+
+Is there anything specific you'd like me to do or answer for you? \U0001f60a 
+
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, User Query: What is SKU?, Model: gemma2:2b
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, AI Response: SKU stands for **Stock Keeping Unit**.  
+
+Think of it as a unique identifier for each product in your inventory. It helps businesses keep track of their stock and manage sales, orders, and deliveries efficiently. 
+
+
+Here's why SKUs are important:
+
+* **Easy identification:** Each SKU has a specific code that makes it easy to identify and locate the product.
+* **Inventory management:**  SKUs help you track how much of each product you have in stock, allowing for accurate inventory counts and reordering. 
+* **Sales & orders:** When processing sales or placing orders, SKUs ensure the correct products are selected and accounted for.
+
+
+Let me know if you'd like to learn more about SKUs!  
+
+INFO:root:Session ID: string, User Query: hi, Model: phi3:mini
+INFO:root:Session ID: string, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: phi3:mini, User Query: hi, Model: phi3:mini
+INFO:root:Session ID: phi3:mini, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, User Query: GRN?, Model: gemma2:2b
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, User Query: GRN?, Model: phi3:mini
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, AI Response: GRN stands for **Goods Receipt Note**. 
+
+It's a document used in businesses to record the receipt of goods from suppliers or vendors. 
+
+Here's what it typically involves:
+
+* **Details of the goods:** The GRN lists the specific items received, including their quantity, description, and any other relevant information.
+* **Supplier details:**  The GRN includes information about the supplier who delivered the goods (name, contact info, etc.). 
+* **Receiving date & time:** This helps track when the goods were received.
+* **Verification process:** The GRN often involves a verification process to ensure that the goods received match the order and are in good condition.
+
+
+Do you have any other questions about GRNs or inventory management?  
+
+INFO:root:Session ID: None, User Query: Hi, Model: phi3:mini
+INFO:root:Session ID: 8b5a4e08-1c2f-4134-850b-fc0a775acfcb, AI Response: A GRN stands for **Goods Received Note**. It is a document used in businesses when goods arrive at the warehouse or distribution center, and it serves as proof that these items have been received safely from suppliers. Here's what you need to know about GRN:
+
+* **Verification of Delivery:** A GRN confirms that all ordered products are present upon delivery without any damage. It helps in verifying the accuracy of shipments against purchase orders and packing slips. 
+* **Inventory Update:** Once a GRN is issued, it triggers an update to inventory records as goods have been received into stock. This ensures that your business's inventory levels are always current.
+* **Accountability & Auditing:** AGRN serves as evidence for accounting purposes and can be used during audits or inspections by suppliers, customers, or regulatory bodies to confirm the receipt of goods against invoices. 
+
+If you need assistance with creating a GRN form or have any questions about its process within your business operations, feel free to ask!
+INFO:root:Session ID: 89d8b198-5142-42b5-adee-96127e0f40f3, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: None, User Query: Hiiiii dfshkhskhfkshfsd oisdhfioehfso hoi  sdifgigfois , Model: phi3:mini
+INFO:root:Session ID: 62d241fc-0a95-4116-8aa4-4e7327c6c389, AI Response: Hello, I'm sorry but it seems like you have input some garbled text or symbols that do not form a coherent question. Could you please provide more context or clarify your request? If there is specific information about SKUs and HSN codes in the CSV upload process within Salesforce setup that you need assistance with, kindly rephrase your query clearly so I can help effectively.
+INFO:root:Session ID: None, User Query: Do u know about SKU ?, Model: phi3:mini
+INFO:root:Session ID: 424aea19-d500-4691-9d71-9e38035c2331, AI Response: Yes, a Stock Keeping Unit (SKU) is a unique identifier assigned by a seller or manufacturer to each product and service for tracking purposes. It helps in managing inventory effectively as it provides detailed information such as the item's name, code, type, stock rotation rule, supplier details, storage unit of measure (UOM), billing UOM, ordering UOM, etc. SKUs are essential tools used by businesses to keep track of their products and manage them efficiently in various systems like PALMS or any other inventory management software.
+INFO:root:Session ID: 424aea19-d500-4691-9d71-9e38035c2331, User Query: How ca we create an SKU ?, Model: phi3:mini
+INFO:root:Session ID: 424aea19-d500-4691-9d71-9e38035c2331, AI Response: Creating a Stock Keeping Unit (SKU) can be done through two methods: using the screen interface, or by uploading it via CSV file format in some systems like PALMS. Here's how you do both ways:
+
+From Screen : Navigate to Setup \u2192 SKU and click on Create SKU button. Enter all required attributes such as item name, code, type (either 'Product', 'Service', or a combination of the two), stock rotation rule ('First In First Out' - FIFO, for example), supplier details if applicable, UOMs used in storage/billing and ordering processes among others. Once all necessary information is entered accurately, click on Save to create your SKU.
+
+Through CSV upload : Prepare a .csv file containing the required attributes of an item as per system requirements (like Item Name, Code etc.). Upload this csv into Setup \u2192 SKU and select 'Create from CSV'. The software will then populate these details in respective fields on your screen. Once all necessary information is entered accurately, click Save to create your SKU.
+INFO:root:Session ID: string, User Query: Hi, Model: phi3:mini
+INFO:root:Session ID: string, User Query: Hi, Model: phi3:mini
+INFO:root:Session ID: string, User Query: HI, Model: phi3:mini
+INFO:root:Session ID: string, User Query: HI, Model: phi3:mini
+INFO:root:Session ID: string, User Query: Hi, Model: phi3:mini
+INFO:root:Session ID: string, AI Response: Hi there! What brings you here to chat with me?
+INFO:root:Session ID: string, AI Response: Good day to you too! What brings you here seeking assistance?
+INFO:root:Session ID: string, User Query: Hi, Model: phi3:mini
+INFO:root:Session ID: string, AI Response: Hello again! How can I help make your experience better today?
+INFO:root:Session ID: string, User Query: Hi, Model: phi3:mini
+INFO:root:Session ID: string, AI Response: Greetings once more! Is there anything specific on your mind that you'd like some guidance with or just a friendly conversation to brighten up the day?
+INFO:root:Session ID: None, User Query: hi, Model: phi3:mini
+INFO:root:Session ID: 6201152d-1e96-4337-b4c8-3bd3e1f57564, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: None, User Query: hi, Model: phi3:mini
+INFO:root:Session ID: bea4a744-7e6f-417c-bfee-98f4e89cc489, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: bea4a744-7e6f-417c-bfee-98f4e89cc489, User Query: how, Model: phi3:mini
+INFO:root:Session ID: bea4a744-7e6f-417c-bfee-98f4e89cc489, AI Response: I'm here to help with any questions or tasks you have in mind. What would you like assistance with specifically?
+INFO:root:Session ID: string, User Query: Hi, Model: phi3:mini
+INFO:root:Session ID: bea4a744-7e6f-417c-bfee-98f4e89cc489, User Query: ASN Related information i want, Model: phi3:mini
+INFO:root:Session ID: string, AI Response: Hello again, friend! I hope this message finds you well. How can we connect today in our little exchange of pleasantries and perhaps share something interesting about ourselves?
+INFO:root:Session ID: bea4a744-7e6f-417c-bfee-98f4e89cc489, AI Response: Certainly, if you are looking for ASN (Automatic Number Plate Recognition) related information, I can provide details on how it works, its applications, and the technology behind it. Please specify your interest further so that I may assist accordingly. Are we discussing legal implications of using such systems or technical aspects?
+INFO:root:Session ID: bea4a744-7e6f-417c-bfee-98f4e89cc489, User Query: what is ASN?, Model: phi3:mini
+INFO:root:Session ID: bea4a744-7e6f-417c-bfee-98f4e89cc489, AI Response: Automatic Number Plate Recognition (ANPR) refers to a sophsiticated method used by law enforcement agencies and other organizations for the automatic detection, reading, and interpretation of vehicle license plates. ANPR systems typically use cameras combined with software that can recognize characters on number plates from images or video feeds in real-time. This technology is often employed to monitor traffic flow, detect stolen vehicles, enforce parking regulations, manage access control at secure facilities and events, as well as for law enforcement purposes such as identifying wanted individuals or checking compliance with vehicle registration laws. Would you like more detailed information on a specific aspect of ANPR technology?
+INFO:root:Session ID: None, User Query: hi, Model: phi3:mini
+INFO:root:Session ID: 52cf8552-6e26-41f4-8e54-2b014bbdc391, AI Response: Hello! How can I assist you today?
+INFO:root:Session ID: 52cf8552-6e26-41f4-8e54-2b014bbdc391, User Query: tking more time to get reposne why ?, Model: phi3:mini
+INFO:root:Session ID: 52cf8552-6e26-41f4-8e54-2b014bbdc391, AI Response: I apologize for any delay in my response. Please let me know how else I may help you or if there's anything specific that needs clarification regarding the information provided earlier. Your patience is greatly appreciated, and rest assured, your queries are important to us. How can we proceed?
